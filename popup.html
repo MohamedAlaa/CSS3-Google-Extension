@@ -1,0 +1,176 @@
+<style>
+body {
+  min-width:300px;
+  overflow-x:hidden;
+  margin: 0;
+  padding: 0
+}
+body,
+.ui-body-c, 
+.ui-body-c input, 
+.ui-body-c select, 
+.ui-body-c textarea, 
+.ui-body-c button {font-family: Helvetica,Arial,sans-serif;}
+.ui-page .ui-header, 
+.ui-page .ui-footer {position: relative}
+.ui-bar-f,
+.ui-bar-f .ui-link-inherit {color: #fff}
+.ui-bar-f {border: 1px solid #56A00E; color: fff; font-weight: bold;
+text-shadow: 0 -1px 1px #234403;
+background: -webkit-gradient(linear, left top, left bottom, from(#74B042), to(#56A00E));
+}
+.ui-header .ui-title, 
+.ui-footer .ui-title {min-height: 1.1em; text-align: center; font-size: 16px; display: block; margin: .6em 90px .8em; padding: 0; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; outline: 0!important}
+
+/* List style */
+.ui-li, .ui-li.ui-field-contain {
+display: block;
+margin: 0;
+position: relative;
+overflow: visible;
+text-align: left;
+border-width: 0;
+border-top-width: 1px;
+}
+.ui-listview, 
+.ui-li {list-style: none; padding: 0}
+.ui-content .ui-listview-inset {margin: 1em 0}
+.ui-content {margin: 1em}
+.ui-listview-inset .ui-li {
+border-right-width: 1px;
+border-left-width: 1px;
+}
+.ui-li, .ui-li.ui-field-contain {
+display: block;
+margin: 0;
+position: relative;
+overflow: visible;
+text-align: left;
+border-width: 0;
+border-top-width: 1px
+}
+.ui-btn-up-a {
+border: 1px solid #222;
+background: #333;
+font-weight: bold;
+color: white;
+text-shadow: 0 -1px 1px black;
+background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#555555), to(#333333));
+}
+.ui-li > .ui-btn-inner {
+display: block;
+position: relative;
+padding: 0;
+}
+.ui-li:last-child, .ui-li.ui-field-contain:last-child {
+border-bottom-width: 1px;
+}
+.ui-listview-inset .ui-li {
+border-right-width: 1px;
+border-left-width: 1px;
+}
+.ui-li .ui-btn-inner a.ui-link-inherit, .ui-li-static.ui-li {
+padding: .7em 75px .7em 15px;
+display: block;
+}
+.ui-li .ui-btn-text a.ui-link-inherit {
+text-overflow: ellipsis;
+overflow: hidden;
+white-space: nowrap;
+}
+
+/* common */
+.ui-li,
+.ui-li.ui-field-contain {text-align: left}
+.ui-btn-inner {white-space: nowrap}
+.ui-corner-top {
+-moz-border-radius-topleft: .6em;
+-webkit-border-top-left-radius: .6em;
+border-top-left-radius: .6em;
+-moz-border-radius-topright: .6em;
+-webkit-border-top-right-radius: .6em;
+border-top-right-radius: .6em;
+}
+.ui-corner-bottom {
+-moz-border-radius-bottomleft: .6em;
+-webkit-border-bottom-left-radius: .6em;
+border-bottom-left-radius: .6em;
+-moz-border-radius-bottomright: .6em;
+-webkit-border-bottom-right-radius: .6em;
+border-bottom-right-radius: .6em;
+}
+.ui-btn-inner {
+border-top: 1px solid white;
+border-color: rgba(255, 255, 255, .3);
+}
+.ui-corner-tl, .ui-corner-tr, .ui-corner-bl, .ui-corner-br, .ui-corner-top, .ui-corner-bottom, .ui-corner-right, .ui-corner-left, .ui-corner-all, .ui-btn-corner-tl, .ui-btn-corner-tr, .ui-btn-corner-bl, .ui-btn-corner-br, .ui-btn-corner-top, .ui-btn-corner-bottom, .ui-btn-corner-right, .ui-btn-corner-left, .ui-btn-corner-all {
+-webkit-background-clip: padding-box;
+-moz-background-clip: padding-box;
+background-clip: padding-box;
+}
+.ui-content > p {color: #333333; font-size: 11px}
+.ui-content > p > a {color: #4272DB}
+.ui-li .ui-btn-inner a.ui-link-inherit, .ui-li-static.ui-li {
+padding: .7em 75px .7em 15px;
+display: block;
+}
+.ui-li .ui-btn-text a.ui-link-inherit {
+text-overflow: ellipsis;
+overflow: hidden;
+white-space: nowrap;
+}
+.ui-btn-up-a a.ui-link-inherit {
+color: white;
+text-decoration: none
+}
+.ui-btn-up-a {
+font-weight: bold;
+text-shadow: 0 -1px 1px black;
+font-size: 13px
+}
+.ui-li, .ui-li.ui-field-contain {
+text-align: left;
+}
+.align-center {text-align: center}
+.credit {font-size: 11px}
+</style>
+
+<div data-role="page" class="ui-page">
+<div data-role="header" data-theme="f" class="ui-bar-f ui-header" role="banner">
+	<h1 class="ui-title" tabindex="0" role="heading" aria-level="1">CSS3 Bookmarks</h1>
+	<!-- Commented for now Todo:: Creating home icon
+	<a href="#" data-icon="home" data-iconpos="notext" data-direction="reverse" class="ui-btn-right jqm-home ui-btn ui-btn-up-f ui-btn-icon-notext ui-btn-corner-all ui-shadow" title="Home" data-theme="f"><span class="ui-btn-inner ui-btn-corner-all"><span class="ui-btn-text">Home</span><span class="ui-icon ui-icon-home ui-icon-shadow"></span></span></a>
+	-->
+</div>
+<div data-role="content" class="ui-content" role="main">
+<p>List of the best CSS3 Bookmarks including css3 tools, snippets and generators.</p>
+<!-- Todo:: Follow me links in Google + facebook + Twitter -->
+<ul data-role="listview" data-inset="true" class="ui-listview  ui-listview-inset ui-corner-all ui-shadow">
+	<li data-theme="c" class="ui-btn ui-btn-icon-right ui-li ui-corner-top ui-btn-up-a">
+		<div class="ui-btn-inner ui-li ui-corner-top">
+			<div class="ui-btn-text">
+				<a href="docs-lists.html" class="ui-link-inherit">CSS3 Please!</a>
+			</div>
+			<span class="ui-icon ui-icon-arrow-r"></span>
+		</div>
+	</li>
+	<li data-theme="c" class="ui-btn ui-btn-up-a ui-btn-icon-right ui-li">
+		<div class="ui-btn-inner ui-li">
+			<div class="ui-btn-text">
+				<a href="lists-performance.html" class="ui-link-inherit">CSS3 Color Generator</a>
+			</div>
+			<span class="ui-icon ui-icon-arrow-r"></span>
+		</div>
+	</li>
+	<li data-theme="c" class="ui-btn ui-btn-up-a ui-btn-icon-right ui-li ui-corner-bottom">
+		<div class="ui-btn-inner ui-li ui-corner-bottom">
+			<div class="ui-btn-text">
+				<a href="lists-themes.html" class="ui-link-inherit">CSS3 Generator</a>
+			</div>
+			<span class="ui-icon ui-icon-arrow-r"></span>
+		</div>
+	</li>
+</ul>
+<p class="credit align-center">Credit goes to: <br /><a href="http://www.seniorwebdesigner.com" target="_blank" title="Mohamed Alaa - Sr. User Interface Designer">Mohamed Alaa - Sr. User Interface Designer</a></p>
+</div>
+</div>

@@ -1,0 +1,12 @@
+{
+  "name": "CSS3 Bookmarks",
+  "version": "1.0",
+  "description": "CSS3 Bookmarks for the most useful tools, snippets and generators",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "popup": "popup.html"
+  },
+  "permissions": [
+    "http://api.flickr.com/"
+  ]
+}
